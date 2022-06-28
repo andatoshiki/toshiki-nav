@@ -1,0 +1,37 @@
+baseURL = "https://nav.toshiki.top"
+languageCode = "zh-CN"
+title = "俊樹の導航 | 資源&學習"
+theme = "temporize"
+preserveTaxonomyNames = true
+disablePathToLower = true
+hasCJKLanguage = true
+# publishDir = "docs"
+
+
+[params]
+    author        = "shenweiyan"
+    description   = "俊樹の導航 | 資源&學習"
+    siteurl       = "./"
+    about         = "./about"   # 左侧导航栏的"关于导航"页面(./about)
+    repository    = "https://github.com/shenweiyan/WebStack-Hugo"
+    enablePreLoad = true		    		        # 网站完全打开前预加载的动画
+    textPreLoad   = "俊樹の導航 | 資源&學習"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
+    logosPath     = "assets/images/logos"				# 网站每个导航地址logo存放地址
+
+[params.qweather]
+    key = "085791e805a24491b43b06cf58ab31e7"
+
+[params.images]
+    favicon           = "assets/images/favicon.png"
+    searchImageL      = "assets/images/search-bg-light.jpg"		#搜索部分浅色背景图
+    searchImageD      = "assets/images/toshiki-nav-bg-dark.png"		#搜索部分深色背景图
+    logoExpandLight   = "assets/images/toshiki-nav-logo-expand.png"
+    logoExpandDark    = "assets/images/toshiki-nav-logo-expand-dark.png"
+    logoCollapseLight = "assets/images/toshiki-nav-logo.png"
+    logoCollapseDark  = "assets/images/toshiki-nav-logo.png"
+    
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params.footer]
+    copyright = 'Made with <span class="heart">❤</span> by <a href="https://www.toshiki.top/">安田俊樹</a> & <a href="https://www.chenskiro.gay">Chenskiro</a> | © 2022-present <a href="https://nav.toshiki.top">俊樹の導航</a>'
