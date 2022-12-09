@@ -28,7 +28,7 @@ hasCJKLanguage = true
     logoExpandLight   = "assets/images/toshiki-nav-logo-expand.png"
     logoExpandDark    = "assets/images/toshiki-nav-logo-expand-dark.png"
     logoCollapseLight = "assets/images/toshiki-nav-logo.png"
-    logoCollapseDark  = "assets/images/toshiki-nav-logo.png"
+    logoCollapseDark  = "http://nav.toshiki.dev/assets/images/toshiki-nav-logo.png"
     
 [markup.goldmark.renderer]
     unsafe = true
